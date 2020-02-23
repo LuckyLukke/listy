@@ -39,6 +39,13 @@ public class Main {
         s.append("22521");
         System.out.println(s);
 
+        Generyka <Integer> generyka = new Generyka<>();
+        generyka.wyswietl(123321);
+
+        Generyka <String> generykaS = new Generyka<>();
+        generykaS.wyswietl("Hello");
+        
+
         int tab[] = new int[5];
         System.out.println(tab.length);
         tab = Arrays.copyOf(tab,20);
